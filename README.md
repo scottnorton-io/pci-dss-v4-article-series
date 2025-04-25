@@ -22,8 +22,8 @@ This repository contains professional, structured documentation for each PCI DSS
 
 ## Master Table of Contents
 
-- **Requirement 1 - Install and Maintain Network Security Controls**: [](./rendered-markdown/requirement-01-install-network-security-controls.md)
-- **Requirement 2 - Apply Secure Configurations to All System Components**: [](./rendered-markdown/requirement-02-apply-secure-configurations.md)
+- **Requirement 1 - Install and Maintain Network Security Controls**: [Requirement 1 - Install and Maintain Network Security Control](./rendered-markdown/requirement-01-install-network-security-controls.md)
+- **Requirement 2 - Apply Secure Configurations to All System Components**: [Requirement 2 - Apply Secure Configurations to All System Components](./rendered-markdown/requirement-02-apply-secure-configurations.md)
 - **Requirement 3 - Protect Stored Account Data**: [](./rendered-markdown/)
 - **Requirement 4 - Protect Cardholder Data with Strong Cryptography During Transmission**: [](./rendered-markdown/)
 - **Requirement 5 - Protect Systems and Networks from Malicious Software**: [](./rendered-markdown/)
@@ -34,8 +34,8 @@ This repository contains professional, structured documentation for each PCI DSS
 - **Requirement 10 - Log and Monitor All Access to System Components and Data**: [](./rendered-markdown/)
 - **Requirement 11 - Test Security of Systems and Networks Regularly**: [](./rendered-markdown/)
 - **Requirement 12 - Support Information Security with Organizational Policies and Programs**: [](./rendered-markdown/)
-- **Appendix A1/A2 - Shared Hosting Providers and SSL/Early TLS for POI Systems**: [](./rendered-markdown/appendix-a1-a2-shared-hosting-ssl-early-tls.md)
-- **Appendix A3 - PCI DSS Compliance Program Maturity and Governance**: [](./rendered-markdown/appendix-a3-compliance-program-maturity.md)
+- **Appendix A1/A2 - Shared Hosting Providers and SSL/Early TLS for POI Systems**: [Appendix A1/A2 - Shared Hosting Providers and SSL/Early TLS for POI Systems](./rendered-markdown/appendix-a1-a2-shared-hosting-ssl-early-tls.md)
+- **Appendix A3 - PCI DSS Compliance Program Maturity and Governance**: [Appendix A3 - PCI DSS Compliance Program Maturity and Governance](./rendered-markdown/appendix-a3-compliance-program-maturity.md)
 
 ---
 
