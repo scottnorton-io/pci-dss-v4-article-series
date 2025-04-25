@@ -1,0 +1,57 @@
+{
+  "template_name": "pci-dss-v4-what-requirement-x-means",
+  "version": "1.0.0",
+  "description": "Structured template for PCI DSS v4 article series covering Requirements 1\u201312, Appendix A1/A2, and A3.",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "description": "Brief overview, importance, and changes in v4."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Requirement X at a Glance",
+      "description": "Summary goal and key sub-requirements."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "description": "Real-world implementation guidance."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "description": "Common mistakes, hidden risks, and how to avoid them."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "description": "Expert-level advice for organizations aiming to excel."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "description": "Table of Responsible, Accountable, Consulted, Informed parties."
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "subsections": [
+        "Executive Lens",
+        "Security & Infra Teams Lens",
+        "QSA/Consultant Lens",
+        "Small Business Lens"
+      ]
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "description": "Clear next steps and encouragement to act."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}

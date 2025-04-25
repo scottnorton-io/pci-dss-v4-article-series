@@ -1,0 +1,72 @@
+{
+  "template_name": "pci-dss-v4-what-appendix-a1-a2-means",
+  "version": "1.13.0",
+  "requirement": "Appendix A1 and A2 - Shared Hosting Providers and SSL/Early TLS for POI Systems",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": "Appendices A1 and A2 of PCI DSS v4.0 address specialized environments requiring additional controls. A1 targets shared hosting providers who must ensure customer environments remain isolated and secure. A2 applies to organizations using SSL or early TLS in legacy point-of-sale (POI) systems, requiring strong compensating controls and formal risk management."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Appendix A1 and A2 at a Glance",
+      "content": "- Appendix A1: Enforce strict logical separation between shared hosting customers.\n- Appendix A1: Maintain customer-specific logging and security control isolation.\n- Appendix A2: Permit SSL/early TLS use in legacy POI systems only with risk mitigation and migration plans.\n- Appendix A2: Verify devices are not susceptible to known vulnerabilities."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "content": "Shared hosting providers must enforce rigorous logical segmentation and independent security controls per customer. Organizations using legacy POI devices with SSL/early TLS must document formal risk analyses, validate security posture against known vulnerabilities, and maintain active migration plans to stronger protocols."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "content": "- Weak or misconfigured segmentation exposing hosted customer environments.\n- Inadequate logging and audit trails per customer.\n- Legacy POI devices running SSL without documented risk justification.\n- No clear migration timelines away from weak protocols."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "content": "For shared hosting: require independent security audits demonstrating customer isolation. For legacy POI: document every device using SSL/early TLS, monitor device firmware and patching status rigorously, and prioritize migration readiness assessments."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "table": [
+        {
+          "Sub-Requirement": "A1.2",
+          "Responsible": "Hosting Provider Infrastructure Team",
+          "Accountable": "Hosting Provider Security Officer",
+          "Consulted": "Compliance Officer",
+          "Informed": "Customer Security Liaisons"
+        },
+        {
+          "Sub-Requirement": "A2.1",
+          "Responsible": "POS Support Teams",
+          "Accountable": "CISO",
+          "Consulted": "Risk Management",
+          "Informed": "Compliance and Legal"
+        }
+      ]
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "content": {
+        "Executive Lens": "Demonstrates risk containment and forward-looking security management for legacy and shared environments.",
+        "Security & Infra Teams Lens": "Focuses on isolating tenant environments in shared hosting and managing SSL/early TLS risk exposure in payment flows.",
+        "QSA/Consultant Lens": "Look for segmentation test results, customer-specific controls documentation, SSL/early TLS risk assessments, and active migration project plans.",
+        "Small Business Lens": "Use managed hosting providers that independently validate PCI DSS compliance. For POI, phase out legacy devices aggressively or mitigate using tokenization and point-to-point encryption (P2PE)."
+      }
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "content": "Shared hosting providers: schedule segmentation audits. POI system operators: document all SSL/early TLS devices, validate current risk postures, and update your migration timelines."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}

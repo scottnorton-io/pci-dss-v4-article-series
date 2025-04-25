@@ -1,0 +1,65 @@
+{
+  "template_name": "pci-dss-v4-what-requirement-4-means",
+  "version": "1.4.0",
+  "requirement": "Requirement 4 - Protect Cardholder Data with Strong Cryptography During Transmission",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": "Requirement 4 ensures that sensitive cardholder data is protected during transmission over open, public networks. PCI DSS v4.0 strengthens expectations around the use of strong cryptographic protocols, inventory tracking of transmission methods, and validation of encryption failure scenarios."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Requirement 4 at a Glance",
+      "content": "- Encrypt all cardholder data transmitted over open/public networks.\n- Use strong cryptography (TLS 1.2+, SSH, IPsec).\n- Disable SSL, early TLS, and weak protocols.\n- Maintain inventories of data transmission paths.\n- Validate encryption controls regularly."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "content": "Organizations must encrypt all sensitive cardholder data transmissions using strong protocols, monitor and disable outdated methods, maintain inventories of where sensitive data travels, and ensure encryption failure detection mechanisms are in place. Mature environments also automate inventory and certificate lifecycle management."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "content": "- Forgotten legacy systems still allowing SSL/TLS 1.0 fallback.\n- APIs using plain HTTP or insecure WebSocket.\n- No active monitoring of cert expiration.\n- VPN tunnels without enforced encryption policies.\n- Gaps in transmission inventories."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "content": "Build an automated inventory that tracks every endpoint and service transmitting cardholder data. Integrate SSL/TLS scanning tools into your asset management workflows to detect insecure endpoints automatically."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "table": [
+        {
+          "Sub-Requirement": "4.1.1",
+          "Responsible": "Network Security Team",
+          "Accountable": "Security Operations Manager",
+          "Consulted": "Application Developers",
+          "Informed": "Compliance Officer"
+        }
+      ]
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "content": {
+        "Executive Lens": "Encryption protects customer trust and reduces breach impact if data interception occurs.",
+        "Security & Infra Teams Lens": "Requires active monitoring of encryption health, inventory maintenance, and swift remediation of insecure paths.",
+        "QSA/Consultant Lens": "Look for proof of strong encryption on all open/public transmissions, inventories of transmission paths, and evidence of deprecated protocol disabling.",
+        "Small Business Lens": "Use cloud services that handle encryption automatically, and validate endpoint security settings through routine external scans."
+      }
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "content": "Review your system inventories and confirm that all sensitive transmissions are secured with strong cryptography. Schedule regular scans for insecure protocols."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "template_name": "pci-dss-v4-what-requirement-12-means",
+  "version": "1.12.0",
+  "requirement": "Requirement 12 - Support Information Security with Organizational Policies and Programs",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": "Requirement 12 focuses on embedding security deeply into organizational processes through policies, accountability, risk assessments, training, and incident response. PCI DSS v4.0 strengthens expectations around executive responsibility, adaptive risk management, and comprehensive incident handling procedures."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Requirement 12 at a Glance",
+      "content": "- Maintain and review information security policies annually.\n- Assign an executive responsible for PCI DSS compliance.\n- Conduct annual and change-driven risk assessments.\n- Maintain and test incident response plans.\n- Implement security awareness programs tailored to job functions."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "content": "Organizations must have documented security policies, assign executive accountability, perform risk assessments annually and after significant changes, run realistic incident response tests, and deliver security awareness training based on employee roles. Mature programs integrate these activities into everyday operations with continuous improvement."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "content": "- Treating policies and risk assessments as paperwork exercises.\n- Assigning executive ownership but failing to ensure active engagement.\n- Failing to adapt incident response plans to new threats or CDE changes.\n- Providing generic security training instead of job-specific modules."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "content": "Integrate PCI DSS requirements into your enterprise risk management (ERM) framework. Tie security awareness programs to real-world incidents and lessons learned to maintain engagement and reinforce a security-first culture."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "table": [
+        {
+          "Sub-Requirement": "12.1.1",
+          "Responsible": "Information Security Officer",
+          "Accountable": "CISO",
+          "Consulted": "Legal and Compliance",
+          "Informed": "All Department Heads"
+        }
+      ]
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "content": {
+        "Executive Lens": "Demonstrates security leadership, reduces business risk, and ensures regulatory accountability.",
+        "Security & Infra Teams Lens": "Focuses on ensuring policies are actionable, risk assessments are prioritized by threat relevance, and incident responses are rehearsed and improved.",
+        "QSA/Consultant Lens": "Look for evidence of policy updates, risk assessments linked to changes, executive ownership assignments, and realistic incident response test records.",
+        "Small Business Lens": "Use streamlined policies and templates, assign clear single-point ownership, conduct simplified risk assessments, and use role-based security training services."
+      }
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "content": "Review your security policies today. Confirm executive accountability is assigned, risk assessments are current, incident response plans are tested, and security training is tailored to specific roles."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}

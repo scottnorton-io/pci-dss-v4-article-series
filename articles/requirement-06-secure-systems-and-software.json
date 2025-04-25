@@ -1,0 +1,65 @@
+{
+  "template_name": "pci-dss-v4-what-requirement-6-means",
+  "version": "1.6.0",
+  "requirement": "Requirement 6 - Develop and Maintain Secure Systems and Software",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": "Requirement 6 focuses on ensuring all systems and software are developed and maintained securely. PCI DSS v4.0 strengthens expectations around secure coding, software lifecycle management, vulnerability patching, and controlling third-party scripts in payment environments."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Requirement 6 at a Glance",
+      "content": "- Apply secure coding practices.\n- Inventory and control third-party scripts.\n- Patch vulnerabilities promptly.\n- Maintain secure system configurations.\n- Implement structured change control procedures."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "content": "Organizations must adopt secure software development lifecycles (SDLCs), scan applications for vulnerabilities before release, patch known vulnerabilities within vendor timelines, manage third-party scripts in payment pages, and apply formal change controls to all system changes."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "content": "- Allowing unmanaged third-party scripts on payment pages.\n- Neglecting to scan for vulnerabilities before production deployment.\n- Deploying changes without formal approval or rollback plans.\n- No documented secure coding standards for developers."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "content": "Integrate static and dynamic application security testing (SAST/DAST) directly into your CI/CD pipelines. Require all third-party scripts in payment environments to undergo review and explicit authorization, and keep an inventory with update schedules."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "table": [
+        {
+          "Sub-Requirement": "6.4.3",
+          "Responsible": "Application Security Team",
+          "Accountable": "Product Owners",
+          "Consulted": "Compliance",
+          "Informed": "Operations and Release Managers"
+        }
+      ]
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "content": {
+        "Executive Lens": "Protects the organization's reputation by minimizing the likelihood of breaches caused by code vulnerabilities or script misuse.",
+        "Security & Infra Teams Lens": "Focuses on embedding security into development workflows, securing configurations, patching vulnerabilities, and reviewing third-party content.",
+        "QSA/Consultant Lens": "Look for documented secure coding standards, software testing results, change control records, and script management evidence for payment environments.",
+        "Small Business Lens": "Leverage cloud hosting and managed code scanning services, and maintain strict control over what scripts run on your e-commerce or payment pages."
+      }
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "content": "Review your secure coding policies, change control processes, and inventory of third-party scripts today. Validate that application and infrastructure vulnerabilities are identified and patched within vendor-recommended timelines."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}

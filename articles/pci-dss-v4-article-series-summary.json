@@ -1,0 +1,76 @@
+{
+  "document_name": "pci-dss-v4-article-series-summary",
+  "version": "1.15.0",
+  "description": "Summary of PCI DSS v4.0 Articles (Requirements 1-12, Appendices A1/A2, A3)",
+  "sections": [
+    {
+      "title": "Master Table of Contents",
+      "content": [
+        "Requirement 1 - Install and Maintain Network Security Controls",
+        "Requirement 2 - Apply Secure Configurations to All System Components",
+        "Requirement 3 - Protect Stored Account Data",
+        "Requirement 4 - Protect Cardholder Data with Strong Cryptography During Transmission",
+        "Requirement 5 - Protect Systems and Networks from Malicious Software",
+        "Requirement 6 - Develop and Maintain Secure Systems and Software",
+        "Requirement 7 - Restrict Access by Business Need to Know",
+        "Requirement 8 - Identify and Authenticate Access to System Components",
+        "Requirement 9 - Restrict Physical Access to Cardholder Data",
+        "Requirement 10 - Log and Monitor All Access to System Components and Data",
+        "Requirement 11 - Test Security of Systems and Networks Regularly",
+        "Requirement 12 - Support Information Security with Organizational Policies and Programs",
+        "Appendix A1/A2 - Shared Hosting Providers and SSL/Early TLS for POI Systems",
+        "Appendix A3 - PCI DSS Compliance Program Maturity and Governance"
+      ]
+    },
+    {
+      "title": "Theme Mapping",
+      "content": {
+        "Governance": [
+          "Requirement 12",
+          "Appendix A3"
+        ],
+        "Access Control": [
+          "Requirement 7",
+          "Requirement 8",
+          "Requirement 9"
+        ],
+        "Data Protection": [
+          "Requirement 3",
+          "Requirement 4",
+          "Appendix A1/A2"
+        ],
+        "Security Testing and Monitoring": [
+          "Requirement 10",
+          "Requirement 11"
+        ],
+        "Vulnerability Management": [
+          "Requirement 5",
+          "Requirement 6"
+        ],
+        "Network Security": [
+          "Requirement 1",
+          "Requirement 2"
+        ]
+      }
+    },
+    {
+      "title": "Quick Article Summaries",
+      "content": {
+        "Requirement 1": "Establish and maintain strong network security perimeters.",
+        "Requirement 2": "Secure system configurations across all assets.",
+        "Requirement 3": "Encrypt and protect stored cardholder data.",
+        "Requirement 4": "Secure transmissions of cardholder data over open networks.",
+        "Requirement 5": "Defend systems against malware threats.",
+        "Requirement 6": "Embed security into software development and maintenance.",
+        "Requirement 7": "Limit access based on business need to know.",
+        "Requirement 8": "Authenticate and track all users accessing systems.",
+        "Requirement 9": "Physically protect systems and cardholder data locations.",
+        "Requirement 10": "Log all access and monitor system activities for anomalies.",
+        "Requirement 11": "Scan, test, and validate security continuously.",
+        "Requirement 12": "Create and maintain policies and a governance structure.",
+        "Appendix A1/A2": "Additional controls for shared hosting and legacy SSL/TLS POI systems.",
+        "Appendix A3": "Formalize compliance governance and continuous lifecycle practices."
+      }
+    }
+  ]
+}

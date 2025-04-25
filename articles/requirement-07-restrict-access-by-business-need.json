@@ -1,0 +1,65 @@
+{
+  "template_name": "pci-dss-v4-what-requirement-7-means",
+  "version": "1.7.0",
+  "requirement": "Requirement 7 - Restrict Access to System Components and Cardholder Data by Business Need to Know",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": "Requirement 7 ensures that access to systems and cardholder data is granted strictly based on business need to know. PCI DSS v4.0 enhances requirements around role-based access control, separation of duties, and periodic access reviews to reduce the risk of unauthorized access."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Requirement 7 at a Glance",
+      "content": "- Implement access control based on least privilege.\n- Enforce role-based access or equivalent.\n- Separate duties so no one can approve and grant their own access.\n- Perform periodic access reviews and validations."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "content": "Organizations must define roles with minimal access privileges, enforce approval workflows for access grants, ensure that no individual can both approve and provision access for themselves, and regularly audit user access rights. Mature organizations dynamically adjust access based on changes in roles or employment status."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "content": "- Administrators retaining excessive privileges over time.\n- Failure to separate access approvers from access implementers.\n- Infrequent or poorly documented access reviews.\n- Terminated users retaining lingering access rights."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "content": "Integrate identity governance tools that automate access provisioning and certification. Risk-rank user accounts during periodic reviews to prioritize high-privilege and sensitive access validation first."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "table": [
+        {
+          "Sub-Requirement": "7.2.1",
+          "Responsible": "Access Management Team",
+          "Accountable": "IT Security Manager",
+          "Consulted": "HR and Department Managers",
+          "Informed": "Compliance Team"
+        }
+      ]
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "content": {
+        "Executive Lens": "Mitigates risk of insider threats and enhances trust with customers and auditors.",
+        "Security & Infra Teams Lens": "Focuses on maintaining least privilege, automating access reviews, and implementing strong separation of duties.",
+        "QSA/Consultant Lens": "Look for documented role definitions, access grant approvals, evidence of access reviews, and proof of separation of access approval and implementation.",
+        "Small Business Lens": "Use simple RBAC templates, enforce access request approval chains, and schedule quarterly manual access reviews."
+      }
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "content": "Review your access control policies today. Validate that access approvals require separate individuals for request and implementation, and schedule your next periodic access review."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}

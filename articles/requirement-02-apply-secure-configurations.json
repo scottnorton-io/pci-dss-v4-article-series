@@ -1,0 +1,65 @@
+{
+  "template_name": "pci-dss-v4-what-requirement-2-means",
+  "version": "1.2.0",
+  "requirement": "Requirement 2 - Apply Secure Configurations to All System Components",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": "Requirement 2 ensures that all system components are securely configured to prevent exploitation of default settings. PCI DSS v4.0 expands the need for secure cloud, container, and serverless environments."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Requirement 2 at a Glance",
+      "content": "- Change default passwords.\n- Harden configurations using industry standards.\n- Maintain documented baselines.\n- Extend to cloud and mobile environments."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "content": "Organizations should use hardened images, change all vendor defaults, and continuously validate configurations. Maturity means automating hardening checks and scanning new assets at onboarding."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "content": "- Default accounts disabled but not removed.\n- Missing hardening for cloud and serverless services.\n- No documentation of security configurations."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "content": "Automate baseline configuration scans and integrate secure config validation into CI/CD pipelines."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "table": [
+        {
+          "Sub-Requirement": "2.2.1",
+          "Responsible": "Sysadmins",
+          "Accountable": "Infrastructure Manager",
+          "Consulted": "Security Architect",
+          "Informed": "Compliance Officer"
+        }
+      ]
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "content": {
+        "Executive Lens": "Reduces breach risk by eliminating simple entry points.",
+        "Security & Infra Teams Lens": "Focuses on standardizing and validating secure builds.",
+        "QSA/Consultant Lens": "Look for documented baselines and hardened images.",
+        "Small Business Lens": "Use vendor-hardened templates and change defaults during setup."
+      }
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "content": "Audit your environment today: verify that all deployed systems follow a secure baseline."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}

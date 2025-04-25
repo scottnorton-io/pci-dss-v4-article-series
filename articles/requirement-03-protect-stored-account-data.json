@@ -1,0 +1,65 @@
+{
+  "template_name": "pci-dss-v4-what-requirement-3-means",
+  "version": "1.3.0",
+  "requirement": "Requirement 3 - Protect Stored Account Data",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": "Requirement 3 focuses on protecting stored cardholder data and sensitive authentication data. PCI DSS v4.0 strengthens expectations around encryption, tokenization, retention minimization, and access control to ensure stored data does not become an easy target for attackers."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Requirement 3 at a Glance",
+      "content": "- Encrypt stored PAN using strong cryptography.\n- Implement robust key management processes.\n- Mask PAN when displayed.\n- Delete stored account data when no longer needed.\n- Confirm tokenized data is truly out of scope if applicable."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "content": "Organizations should encrypt all stored PAN, properly manage encryption keys, mask account numbers where feasible, and delete data that is no longer needed. Mature programs simulate encryption failure scenarios and conduct frequent data discovery scans."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "content": "- PAN accidentally stored in debug logs, snapshots, backups, or CDN caches.\n- Poor key management practices or expired keys still in use.\n- Assuming tokenized data is always out of PCI scope without validating irreversibility.\n- Masking user displays but retaining full PANs in databases."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "content": "Regularly scan your environments\u2014including backups, logs, and third-party services\u2014for residual PAN. Validate tokenization processes annually. Test failover scenarios to verify that encryption or tokenization failures are detected and remediated promptly."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "table": [
+        {
+          "Sub-Requirement": "3.4.1",
+          "Responsible": "Data Protection Team",
+          "Accountable": "CISO",
+          "Consulted": "Database Administrators",
+          "Informed": "Compliance Officer"
+        }
+      ]
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "content": {
+        "Executive Lens": "Demonstrates risk management maturity by protecting high-value sensitive data and limiting breach impact.",
+        "Security & Infra Teams Lens": "Demands strict encryption practices, key lifecycle management, and sensitive data discovery processes.",
+        "QSA/Consultant Lens": "Look for documented encryption methods, key management evidence, and validation that masking is correctly enforced at display points.",
+        "Small Business Lens": "Use built-in encryption services and limit storage."
+      }
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "content": "Perform a sensitive data discovery scan today. Verify that all stored PAN is encrypted, masked where appropriate, and that key management processes are clearly documented and followed."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}

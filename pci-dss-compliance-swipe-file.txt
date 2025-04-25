@@ -1,0 +1,21 @@
+# 📋 PCI DSS Compliance Swipe File (Sample Prompts, Phrasing, Tips)
+
+## Sample Guidance Language (Use in Policies / Communications)
+- "Access to cardholder data is granted strictly based on least privilege and reviewed quarterly."
+- "All systems transmitting cardholder data must enforce strong cryptographic protocols (TLS 1.2 or higher)."
+- "Physical access to environments handling cardholder data must be monitored, logged, and reviewed monthly."
+- "Incident response plans must include procedures for unauthorized discovery of PAN outside intended zones."
+
+## Sample Prompts for Teams
+- "Can you demonstrate where multi-factor authentication is enforced across administrative interfaces?"
+- "When was the last time critical firewall rules were reviewed for business justification?"
+- "Have all anti-malware definitions been updated within the past 24 hours?"
+
+## Quick Best Practices
+- Rotate passwords for critical systems every 90 days.
+- Perform penetration testing annually and after significant changes.
+- Encrypt backups containing sensitive data.
+- Maintain an asset inventory tied to compliance scope boundaries.
+
+---
+✅ Swipe file designed to be inserted into internal training, client workshops, compliance coaching sessions.

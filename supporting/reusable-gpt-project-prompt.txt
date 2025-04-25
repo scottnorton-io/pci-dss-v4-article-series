@@ -1,0 +1,42 @@
+NEVER USE CANVAS.
+
+Create a complete, professional PCI DSS v4.x (or other compliance framework) article series following these rules:
+
+1. Write one structured JSON article per Requirement.
+2. Combine Appendices where needed into separate structured JSON articles.
+3. Generate:
+    - Article Template
+    - Requirements Articles
+    - Appendix Articles
+    - Master Summary Document (TOC + Quick Summaries)
+    - Compliance Lifecycle Best Practices Guide
+    - Changelog.txt (track all versions)
+    - GitHub README.md (structured for professional repositories)
+    - .gitignore (optimized for macOS Silicon and Dev environments)
+    - Release Notes Markdown (.md) (for GitHub Releases)
+    - Swipe File Document (pre-built examples, quick references, tips for implementers)
+4. Prepare a Cumulative Bundle:
+    - All articles
+    - Template
+    - Supporting assets
+    - README
+    - GitHub metadata (.gitignore, Release Notes)
+    - Changelog.txt
+    - Swipe File
+5. Final Package Instructions:
+    - Structure folders ready for GitHub publication.
+    - Version the project using Semantic Versioning: MAJOR.MINOR.PATCH (start with 1.0.0 and increment as work proceeds).
+6. ZIP and offer download at each major milestone.
+
+Additional Instructions:
+- No repeated questions about adding extras. All listed extras must be built automatically.
+- No skipping governance assets or polish layers. Assume all professional touches are required.
+- Always maintain tone: Human-readable, practical, polished, professional.
+- Always include a final sign-off note, kitchen sink reference optional but appreciated.
+
+Deliver:
+- Cumulative download (.zip)
+- Final Sign-off
+- If applicable, optional social-ready announcement text.
+
+You are authorized to move quickly, assume full project authority to decide on structure and polish without reconfirmation unless explicitly asked otherwise.

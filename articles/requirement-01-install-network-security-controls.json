@@ -1,0 +1,65 @@
+{
+  "template_name": "pci-dss-v4-what-requirement-1-means",
+  "version": "1.1.0",
+  "requirement": "Requirement 1 - Install and Maintain Network Security Controls",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": "Requirement 1 lays the foundation for PCI DSS compliance by establishing network security controls at the perimeter and internally. PCI DSS v4.0 adds flexibility for custom approaches, provided control objectives are met."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Requirement 1 at a Glance",
+      "content": "- Build secure network boundaries.\n- Control inbound and outbound traffic.\n- Review ports, protocols, and services regularly.\n- Justify each connection's business need.\n- Protect against unauthorized network access, including cloud and virtual segmentation."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "content": "Businesses must implement firewalls or equivalent controls, document business justifications, and regularly review network access paths. Minimum compliance means having static firewalls with yearly reviews; maturity includes automated change detection."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "content": "- Leaving cloud security groups unreviewed.\n- Unused interfaces left open.\n- Scoping errors from outdated network diagrams."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "content": "Treat cloud VPCs and security groups with the same rigor as firewalls. Build automated alerting for unauthorized network changes."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "table": [
+        {
+          "Sub-Requirement": "1.2.5",
+          "Responsible": "Network Security",
+          "Accountable": "CISO",
+          "Consulted": "Compliance",
+          "Informed": "IT Operations"
+        }
+      ]
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "content": {
+        "Executive Lens": "Supports business resilience and protects brand reputation.",
+        "Security & Infra Teams Lens": "Focuses on least privilege and traffic restrictions.",
+        "QSA/Consultant Lens": "Look for up-to-date diagrams, firewall configs, and rule justifications.",
+        "Small Business Lens": "Use managed firewall services and document access rules carefully."
+      }
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "content": "Review your firewall rules and cloud security groups today for scope alignment."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}

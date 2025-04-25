@@ -1,0 +1,65 @@
+{
+  "template_name": "pci-dss-v4-what-appendix-a3-means",
+  "version": "1.14.0",
+  "requirement": "Appendix A3 - PCI DSS Compliance Program Maturity and Governance",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": "Appendix A3 introduces new governance expectations for maintaining a scalable, sustainable PCI DSS compliance program. It emphasizes executive ownership, role-based accountability, personnel training, evidence-driven control management, and ongoing control lifecycle maintenance as part of an organization's operational culture."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Appendix A3 at a Glance",
+      "content": "- Executive accountability for PCI DSS compliance.\n- Formal assignment of roles for compliance activities.\n- Annual training for personnel supporting PCI DSS.\n- Evidence-based monitoring, adjustment, and validation of controls.\n- Continuous improvement of security and compliance processes."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "content": "Organizations must move beyond treating PCI DSS as a one-time event. Executive leadership must oversee ongoing compliance activities, control owners must validate the effectiveness of their assigned controls throughout the year, staff must be trained regularly, and evidence must demonstrate continuous governance."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "content": "- No formal assignment of control responsibilities.\n- Personnel unaware of their roles in maintaining PCI DSS compliance.\n- Controls only tested during audit windows.\n- Lack of documented evidence for continuous control monitoring and adjustment."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "content": "Build a PCI DSS governance calendar tied to real operational milestones. Assign clear ownership for each control with documented responsibilities, and embed compliance validation steps into your change management and security operations processes."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "table": [
+        {
+          "Sub-Requirement": "A3.1",
+          "Responsible": "Control Owners",
+          "Accountable": "CISO",
+          "Consulted": "Compliance Program Manager",
+          "Informed": "Executive Leadership Team"
+        }
+      ]
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "content": {
+        "Executive Lens": "Establishes top-down accountability and governance, aligning PCI DSS with enterprise risk management and operational excellence.",
+        "Security & Infra Teams Lens": "Focuses on maintaining controls consistently year-round, building repeatable validation processes, and integrating compliance into daily operations.",
+        "QSA/Consultant Lens": "Look for documented role assignments, evidence of continuous control monitoring, training records, and governance oversight by executive leadership.",
+        "Small Business Lens": "Designate a security lead for PCI governance, use simple compliance tracking tools, and schedule quarterly self-checks to maintain continuous evidence."
+      }
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "content": "Review your compliance program structure today. Confirm executive accountability, document control ownership, plan quarterly compliance validations, and ensure all support personnel are trained annually."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}

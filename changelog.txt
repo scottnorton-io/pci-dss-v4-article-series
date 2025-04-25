@@ -1,0 +1,52 @@
+Changelog - PCI DSS v4 Article Series v1.15.0
+
+Created: 2025-04-25
+
+=============================================
+v1.0.0 - Template Created
+- Structured article template finalized.
+
+v1.2.0 - Requirement 1 & 2 Articles
+- Completed and packaged Requirements 1 and 2.
+
+v1.3.0 - Requirement 3 Article
+- Added Requirement 3.
+
+v1.4.0 - Requirement 4 Article
+- Added Requirement 4.
+
+v1.5.0 - Requirement 5 Article
+- Added Requirement 5.
+
+v1.6.0 - Requirement 6 Article
+- Added Requirement 6.
+
+v1.7.0 - Requirement 7 Article
+- Added Requirement 7.
+
+v1.8.0 - Requirement 8 Article
+- Added Requirement 8.
+
+v1.9.0 - Requirement 9 Article
+- Added Requirement 9.
+
+v1.10.0 - Requirement 10 Article
+- Added Requirement 10.
+
+v1.11.0 - Requirement 11 Article
+- Added Requirement 11.
+
+v1.12.0 - Requirement 12 Article
+- Added Requirement 12.
+
+v1.13.0 - Appendix A1 and A2 Article
+- Added Appendix A1/A2 content.
+
+v1.14.0 - Appendix A3 Article
+- Added Appendix A3 content.
+
+v1.15.0 - Final Supporting Materials Added
+- Added PCI DSS v4 Article Series Summary (TOC + Quick Summaries).
+- Added PCI DSS Compliance Lifecycle Best Practices Guide.
+- Final complete package delivered.
+=============================================

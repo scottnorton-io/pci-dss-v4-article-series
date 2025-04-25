@@ -1,0 +1,65 @@
+{
+  "template_name": "pci-dss-v4-what-requirement-9-means",
+  "version": "1.9.0",
+  "requirement": "Requirement 9 - Restrict Physical Access to Cardholder Data",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": "Requirement 9 ensures that physical access to systems and environments handling cardholder data is tightly controlled. PCI DSS v4.0 strengthens expectations around visitor tracking, access control reviews, and integration of physical security monitoring with overall security systems."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Requirement 9 at a Glance",
+      "content": "- Restrict physical access to systems and data.\n- Use ID badges, biometric readers, or equivalent controls.\n- Maintain detailed visitor logs.\n- Escort all visitors at all times.\n- Review and revoke physical access rights regularly."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "content": "Organizations must deploy physical access control measures at all sensitive areas, track all visitors, review access lists regularly, and monitor access attempts. Mature programs integrate physical access data into centralized security monitoring and enforce strict separation of duties for access approvals."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "content": "- Shared or propped-open doors.\n- Visitor logs missing critical data (e.g., time of departure).\n- Failure to revoke access after role or employment changes.\n- Security cameras not covering all entry and sensitive points."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "content": "Integrate badge access logs and visitor management systems with SIEM or centralized security monitoring to enable near real-time detection of unauthorized access attempts. Regularly audit surveillance footage to confirm that visitor escort policies are being followed."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "table": [
+        {
+          "Sub-Requirement": "9.4.1",
+          "Responsible": "Facilities Security Team",
+          "Accountable": "Facilities Manager",
+          "Consulted": "Compliance Officer",
+          "Informed": "HR and IT Security"
+        }
+      ]
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "content": {
+        "Executive Lens": "Reduces insider threats and strengthens overall security posture, protecting organizational reputation and customer trust.",
+        "Security & Infra Teams Lens": "Focuses on maintaining secure physical perimeters, access monitoring, visitor management, and physical access audits.",
+        "QSA/Consultant Lens": "Look for evidence of physical access reviews, visitor logs, access control lists, and proof that no individual approves their own physical access rights.",
+        "Small Business Lens": "Use simple electronic access badge systems with enforced visitor sign-ins and escort policies."
+      }
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "content": "Conduct a physical access audit today. Validate that all access controls are operating correctly, visitor policies are enforced, and that access rights are revoked promptly when no longer needed."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}

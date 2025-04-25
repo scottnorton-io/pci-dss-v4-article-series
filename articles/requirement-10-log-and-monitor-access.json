@@ -1,0 +1,65 @@
+{
+  "template_name": "pci-dss-v4-what-requirement-10-means",
+  "version": "1.10.0",
+  "requirement": "Requirement 10 - Log and Monitor All Access to System Components and Cardholder Data",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "content": "Requirement 10 focuses on logging and monitoring access to all system components and cardholder data. PCI DSS v4.0 strengthens expectations for automated event detection, consistent log review practices, time synchronization, and log protection to ensure security events are detected and addressed promptly."
+    },
+    {
+      "id": "requirement_glance",
+      "title": "Requirement 10 at a Glance",
+      "content": "- Capture and store logs for all access and activity.\n- Implement daily log reviews for critical systems.\n- Use secure, authenticated time sources.\n- Protect logs from unauthorized changes.\n- Retain logs securely for forensic and incident response use."
+    },
+    {
+      "id": "practice",
+      "title": "What This Means in Practice",
+      "content": "Organizations must capture detailed logs from systems that store, process, or transmit cardholder data, review critical logs daily, ensure clocks are synchronized, prevent unauthorized modifications of logs, and retain log data securely for analysis. Mature organizations use centralized SIEM systems with automated alerting on suspicious events."
+    },
+    {
+      "id": "gotchas",
+      "title": "Gotchas",
+      "content": "- Inconsistent daily review of security event logs.\n- Log files stored locally without centralization.\n- System clocks drifting and causing inconsistent log timelines.\n- No access controls preventing log tampering by administrators."
+    },
+    {
+      "id": "trusted_advisor_tip",
+      "title": "Trusted Advisor (TA) Tip",
+      "content": "Deploy a SIEM solution that not only centralizes log collection but also automates detection of suspicious patterns. Integrate time source health checks into your monitoring strategy to prevent unnoticed drift."
+    },
+    {
+      "id": "raci_matrix",
+      "title": "RACI Matrix for Key Sub-Requirements",
+      "table": [
+        {
+          "Sub-Requirement": "10.4.1",
+          "Responsible": "Security Operations Center (SOC)",
+          "Accountable": "CISO",
+          "Consulted": "System Administrators",
+          "Informed": "Compliance Officer"
+        }
+      ]
+    },
+    {
+      "id": "use_case_lenses",
+      "title": "Use Case Lenses",
+      "content": {
+        "Executive Lens": "Reduces breach impact by enabling early detection of security incidents and demonstrating proactive governance.",
+        "Security & Infra Teams Lens": "Focuses on capturing comprehensive logs, daily review routines, real-time alerting, and ensuring time source integrity.",
+        "QSA/Consultant Lens": "Look for evidence of log collection from all critical assets, daily review documentation, tamper protection, and time synchronization validation.",
+        "Small Business Lens": "Use managed SIEM or cloud-based logging services to meet centralized logging and monitoring requirements efficiently."
+      }
+    },
+    {
+      "id": "call_to_action",
+      "title": "Call to Action (CTA)",
+      "content": "Review your logging and monitoring today. Confirm that logs are centrally collected, daily reviews are happening, time sources are authenticated, and logs are securely retained for at least 12 months."
+    }
+  ],
+  "notes": {
+    "tone": "Conversational but professional",
+    "priority": "Clarity over comprehensiveness",
+    "style": "Human-readable, simple examples, easy to scan"
+  }
+}
