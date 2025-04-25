@@ -34,8 +34,8 @@ This repository contains professional, structured documentation for each PCI DSS
 - **Requirement 10 - Log and Monitor All Access to System Components and Data**: [](./rendered-markdown/)
 - **Requirement 11 - Test Security of Systems and Networks Regularly**: [](./rendered-markdown/)
 - **Requirement 12 - Support Information Security with Organizational Policies and Programs**: [](./rendered-markdown/)
-- **Appendix A1/A2 - Shared Hosting Providers and SSL/Early TLS for POI Systems**: [Appendix A1/A2 - Shared Hosting Providers and SSL/Early TLS for POI Systems](./rendered-markdown/appendix-a1-a2-shared-hosting-ssl-early-tls.md)
-- **Appendix A3 - PCI DSS Compliance Program Maturity and Governance**: [Appendix A3 - PCI DSS Compliance Program Maturity and Governance](./rendered-markdown/appendix-a3-compliance-program-maturity.md)
+- [**Appendix A1/A2 - Shared Hosting Providers and SSL/Early TLS for POI Systems**](./rendered-markdown/appendix-a1-a2-shared-hosting-ssl-early-tls.md)
+- [**Appendix A3 - PCI DSS Compliance Program Maturity and Governance**](./rendered-markdown/appendix-a3-compliance-program-maturity.md)
 
 ---
 
