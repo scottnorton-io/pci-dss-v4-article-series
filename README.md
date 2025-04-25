@@ -20,7 +20,7 @@ This repository contains professional, structured documentation for each PCI DSS
 - **Master Table of Contents**: [pci-dss-v4-article-series-summary.json](./supporting/pci-dss-v4-article-series-summary.json)
 - **Lifecycle Best Practices**: [pci-dss-compliance-lifecycle-best-practices.json](./supporting/pci-dss-compliance-lifecycle-best-practices.json)
 
-## Master Table of Contents
+## 📚 Master Table of Contents
 
 -[**Requirement 1 - Install and Maintain Network Security Controls**](./rendered-markdown/requirement-01-install-network-security-controls.md)
 - [**Requirement 2 - Apply Secure Configurations to All System Components**](./rendered-markdown/requirement-02-apply-secure-configurations.md)
