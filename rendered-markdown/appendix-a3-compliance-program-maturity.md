@@ -19,7 +19,7 @@ Organizations must move beyond treating PCI DSS as a one-time event. Executive l
 
 - No formal assignment of control responsibilities.
 - Personnel unaware of their roles in maintaining PCI DSS compliance.
-- Controls only tested during audit windows.
+- Controls only tested during assessment windows.
 - Lack of documented evidence for continuous control monitoring and adjustment.
 
 ## Trusted Advisor (TA) Tip

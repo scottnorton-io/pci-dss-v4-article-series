@@ -35,7 +35,7 @@ Integrate identity governance tools that automate access provisioning and certif
 
 **Executive Lens**
 
-Mitigates risk of insider threats and enhances trust with customers and auditors.
+Mitigates risk of insider threats and enhances trust with customers and assessors.
 
 **Security & Infra Teams Lens**
 

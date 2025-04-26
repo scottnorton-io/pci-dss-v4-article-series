@@ -21,7 +21,7 @@
     {
       "id": "gotchas",
       "title": "Gotchas",
-      "content": "- No formal assignment of control responsibilities.\n- Personnel unaware of their roles in maintaining PCI DSS compliance.\n- Controls only tested during audit windows.\n- Lack of documented evidence for continuous control monitoring and adjustment."
+      "content": "- No formal assignment of control responsibilities.\n- Personnel unaware of their roles in maintaining PCI DSS compliance.\n- Controls only tested during assessment windows.\n- Lack of documented evidence for continuous control monitoring and adjustment."
     },
     {
       "id": "trusted_advisor_tip",

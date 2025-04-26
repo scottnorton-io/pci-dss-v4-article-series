@@ -45,7 +45,7 @@
       "id": "use_case_lenses",
       "title": "Use Case Lenses",
       "content": {
-        "Executive Lens": "Mitigates risk of insider threats and enhances trust with customers and auditors.",
+        "Executive Lens": "Mitigates risk of insider threats and enhances trust with customers and assessors.",
         "Security & Infra Teams Lens": "Focuses on maintaining least privilege, automating access reviews, and implementing strong separation of duties.",
         "QSA/Consultant Lens": "Look for documented role definitions, access grant approvals, evidence of access reviews, and proof of separation of access approval and implementation.",
         "Small Business Lens": "Use simple RBAC templates, enforce access request approval chains, and schedule quarterly manual access reviews."

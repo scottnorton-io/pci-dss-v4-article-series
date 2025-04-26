@@ -23,7 +23,7 @@ Shared hosting providers must enforce rigorous logical segmentation and independ
 
 ## Trusted Advisor (TA) Tip
 
-For shared hosting: require independent security audits demonstrating customer isolation. For legacy POI: document every device using SSL/early TLS, monitor device firmware and patching status rigorously, and prioritize migration readiness assessments.
+For shared hosting: require independent security assessments demonstrating customer isolation. For legacy POI: document every device using SSL/early TLS, monitor device firmware and patching status rigorously, and prioritize migration readiness assessments.
 
 ## RACI Matrix for Key Sub-Requirements
 

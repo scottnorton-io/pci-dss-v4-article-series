@@ -50,5 +50,5 @@ Use vendor-hardened templates and change defaults during setup.
 
 ## Call to Action (CTA)
 
-Audit your environment today: verify that all deployed systems follow a secure baseline.
+Assess your environment today: verify that all deployed systems follow a secure baseline.
 
